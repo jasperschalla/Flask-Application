@@ -1,7 +1,7 @@
 # import packages
 
 import sys
-sys.path.insert(1, r'D:\Job\UFZ\de-smart-monitoring-backend-module-master\de-smart-monitoring-backend-module-master')
+sys.path.insert(1, r'D:\Git_repos\Flask-Application\de-smart-monitoring-backend-module-master')
 import de_sm_backend.nrt_io.downloader as downloader
 from flask import Flask, render_template, request, redirect, jsonify, url_for, send_file, redirect, make_response, Response, send_from_directory,after_this_request
 import numpy as np
